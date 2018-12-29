@@ -1,0 +1,3 @@
+city,dateAdded,date_of_birth,disable,district,email,first_name,gender,image,last_name,password,phone,role
+Ho Chi Minh,2018-12-29T04:57:30.427Z,1997-07-02T17:00:00.000Z,FALSE,7,khanh98mh@gmail.com,Nhut Khanh,TRUE,user.jpg,Le,123,837260680,user
+Ho Chi Minh,2018-12-29T04:57:30.427Z,2010-10-08T17:00:00.000Z,FALSE,7,khanhsadadmh@gmail.com,Aliaba,TRUE,user.jpg,Le,123,4243243424,user

@@ -1,0 +1,3 @@
+disable,name,number_seat.0._id,number_seat.0.name_seat,number_seat.0.status,number_seat.1._id,number_seat.1.name_seat,number_seat.1.status,price,room,type_seat
+false,Phong 1,5c270b4c2fa37f4450a69958,A1,Trong,,,,50000,5c27020c8115a61c8cbe7ad3,Binh thuong
+false,Phong 2,5c270baa2fa37f4450a6995b,A1,Trong,5c270baa2fa37f4450a6995a,A2,Trong,50000,5c27020c8115a61c8cbe7ad3,Binh thuong

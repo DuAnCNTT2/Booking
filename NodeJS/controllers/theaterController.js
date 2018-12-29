@@ -24,12 +24,11 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
     var theater = new Theater({
-        theaterID : req.body.theaterID,
         name : req.body.name,
         contact_phone : req.body.contact_phone,
         image : req.body.image,
-        number_room : req.body.number_room,
-        number_seat : req.body.number_seat,
+        district : req.body.district,
+        city : req.body.city,
         disable : req.body.disable
     });
     theater.save((err, doc) => {
@@ -43,13 +42,12 @@ router.put('/:id', (req, res) => {
         return res.status(400).send(`No record with given id : ${req.params.id}`);
 
         var theater = {
-            theaterID : req.body.theaterID,
-        name : req.body.name,
-        contact_phone : req.body.contact_phone,
-        image : req.body.image,
-        number_room : req.body.number_room,
-        number_seat : req.body.number_seat,
-        disable : req.body.disable
+            name : req.body.name,
+            contact_phone : req.body.contact_phone,
+            image : req.body.image,
+            district : req.body.district,
+            city : req.body.city,
+            disable : req.body.disable
         };
     Theater.findByIdAndUpdate(req.params.id, { $set: theater }, { new: true }, (err, doc) => {
         if (!err) { res.send(doc); }

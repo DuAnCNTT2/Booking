@@ -24,7 +24,6 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
     var user = new User({
-        userID : req.body.userID,
         first_name : req.body.first_name,
         last_name : req.body.last_name,
         gender : req.body.gender,
@@ -50,7 +49,6 @@ router.put('/:id', (req, res) => {
         return res.status(400).send(`No record with given id : ${req.params.id}`);
 
         var user = {
-            userID : req.body.userID,
             first_name : req.body.first_name,
             last_name : req.body.last_name,
             gender : req.body.gender,
