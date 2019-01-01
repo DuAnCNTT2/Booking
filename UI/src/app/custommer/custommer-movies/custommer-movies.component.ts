@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Movie } from 'src/models/movie';
 import { fakeMovies } from 'src/app/fake-movie';
+import { MovieService } from 'src/services/movie.service';
 
 @Component({
   selector: 'app-custommer-movies',
@@ -16,16 +17,25 @@ export class CustommerMoviesComponent implements OnInit {
     genre: ['Hành Động'],
     release_date: null,
     running_time: 145,
-    description: 'Câu chuyện của Đế Vương Atlantis tiếp nối sau những sự kiện xảy ra trong Justice League – Liên Minh Công Lý.',
+    description:
+      'Câu chuyện của Đế Vương Atlantis tiếp nối sau những sự kiện xảy ra trong Justice League – Liên Minh Công Lý.',
     trailer: 'https://www.youtube.com/watch?v=iMbzy-_LPqw',
-    disable: false,
+    disable: false
   };
 
-  movies = fakeMovies;
-
-  constructor() { }
-
-  ngOnInit() {
+  // movies = fakeMovies;
+  movies: Movie[];
+  constructor(private movieService: MovieService) {}
+  getMovieFromService(): void {
+    // this.movies = this.movieService.getMovie();
+    this.movieService.getMovie().subscribe(
+      (updateMovie) => {
+        this.movies = updateMovie;
+      }
+    );
   }
 
+  ngOnInit() {
+    this.getMovieFromService();
+  }
 }

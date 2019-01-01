@@ -1,0 +1,46 @@
+2019-01-01T01:06:55.250+0700 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-01-01T01:06:55.255+0700 I CONTROL  [initandlisten] MongoDB starting : pid=12724 port=27017 dbpath=E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data 64-bit host=DESKTOP-1DGO77K
+2019-01-01T01:06:55.255+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-01-01T01:06:55.255+0700 I CONTROL  [initandlisten] db version v4.0.5
+2019-01-01T01:06:55.255+0700 I CONTROL  [initandlisten] git version: 3739429dd92b92d1b0ab120911a23d50bf03c412
+2019-01-01T01:06:55.256+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-01-01T01:06:55.256+0700 I CONTROL  [initandlisten] modules: none
+2019-01-01T01:06:55.257+0700 I CONTROL  [initandlisten] build environment:
+2019-01-01T01:06:55.257+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-01-01T01:06:55.257+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2019-01-01T01:06:55.257+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-01-01T01:06:55.257+0700 I CONTROL  [initandlisten] options: { config: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\config.txt", storage: { dbPath: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data" }, systemLog: { destination: "file", path: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\log\mongo.log" } }
+2019-01-01T01:06:55.262+0700 I STORAGE  [initandlisten] Detected data files in E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-01-01T01:06:55.262+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-01-01T01:06:55.780+0700 I STORAGE  [initandlisten] WiredTiger message [1546279615:779797][12724:140718863570816], txn-recover: Main recovery loop: starting at 6/65280 to 7/256
+2019-01-01T01:06:56.063+0700 I STORAGE  [initandlisten] WiredTiger message [1546279616:62637][12724:140718863570816], txn-recover: Recovering log 6 through 7
+2019-01-01T01:06:56.247+0700 I STORAGE  [initandlisten] WiredTiger message [1546279616:247098][12724:140718863570816], txn-recover: Recovering log 7 through 7
+2019-01-01T01:06:56.372+0700 I STORAGE  [initandlisten] WiredTiger message [1546279616:372032][12724:140718863570816], txn-recover: Set global recovery timestamp: 0
+2019-01-01T01:06:56.780+0700 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-01-01T01:06:57.560+0700 I CONTROL  [initandlisten] 
+2019-01-01T01:06:57.561+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-01-01T01:06:57.561+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-01-01T01:06:57.561+0700 I CONTROL  [initandlisten] 
+2019-01-01T01:06:57.561+0700 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2019-01-01T01:06:57.562+0700 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2019-01-01T01:06:57.562+0700 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2019-01-01T01:06:57.562+0700 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-01-01T01:06:57.562+0700 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2019-01-01T01:06:57.563+0700 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-01-01T01:06:57.563+0700 I CONTROL  [initandlisten] 
+2019-01-01T01:07:01.648+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'E:/HK7/DuAnCNTT2/Booking/DataMongoDB/data/diagnostic.data'
+2019-01-01T01:07:01.652+0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-01-01T01:07:04.649+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:54739 #1 (1 connection now open)
+2019-01-01T01:07:04.675+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:54739 conn1: { driver: { name: "nodejs", version: "3.1.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17763" }, platform: "Node.js v10.14.2, LE, mongodb-core: 3.1.9" }
+2019-01-01T01:07:09.992+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:54749 #2 (2 connections now open)
+2019-01-01T01:07:09.993+0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:54749 conn2: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T02:34:10.820+0700 I NETWORK  [conn1] end connection 127.0.0.1:54739 (1 connection now open)
+2019-01-01T02:34:13.591+0700 I CONTROL  [thread3] CTRL_CLOSE_EVENT signal
+2019-01-01T02:34:13.591+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2019-01-01T02:34:13.592+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2019-01-01T02:34:13.593+0700 I CONTROL  [consoleTerminate] Shutting down free monitoring
+2019-01-01T02:34:13.593+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2019-01-01T02:34:13.605+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2019-01-01T02:34:15.579+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2019-01-01T02:34:15.580+0700 I CONTROL  [consoleTerminate] now exiting
+2019-01-01T02:34:15.580+0700 I CONTROL  [consoleTerminate] shutting down with code:12

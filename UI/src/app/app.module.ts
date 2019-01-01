@@ -10,6 +10,10 @@ import { CycleSlideComponent } from './custommer/cycle-slide/cycle-slide.compone
 import { MovieSelectionComponent } from './custommer/movie-selection/movie-selection.component';
 import { CustommerMoviesComponent } from './custommer/custommer-movies/custommer-movies.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
+import { CustommerMoviesDetailComponent } from './custommer/custommer-movies-detail/custommer-movies-detail.component';
+import { MovieService } from 'src/services/movie.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,19 @@ import { FormsModule } from '@angular/forms';
     CycleSlideComponent,
     MovieSelectionComponent,
     CustommerMoviesComponent,
+    CustommerMoviesDetailComponent,
     // AngularFontAwesomeModule
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    MovieService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

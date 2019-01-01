@@ -1,0 +1,29 @@
+<div *ngIf="movie" class="container">
+  <div class="row">
+    <h1>Nội dung phim</h1>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3">
+      <img src="" alt="">
+    </div>
+    <div class="col-md-9">
+      <div class="row text-uppercase font-weight-bold h3">{{ movie.name }}</div>
+      <div class="row"><strong>Đạo diễn: </strong>{{ movie.director }}</div>
+      <div class="row"><strong>Diễn viên: </strong>{{ movie.cast }}</div>
+      <div class="row"><strong>Thể loại: </strong>{{ movie.genre }}</div>
+      <div class="row"><strong>Khởi chiếu: </strong>{{ movie.release_date }}</div>
+      <div class="row"><strong>Thời lượng: </strong>{{ movie.running_time }}</div>
+      <br>
+      <div class="row"> <button class="btn btn-primary">Mua vé</button>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <a href="#"><strong>Chi tiết | </strong></a>
+    <a href="">Trailer</a>
+  </div>
+  <div class="row"> {{ movie.description }} </div>
+
+  <div class="row">{{ movie.trailer }}</div>
+</div>
