@@ -1,0 +1,81 @@
+2019-01-01T00:11:09.380+0700 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-01-01T00:11:09.384+0700 I CONTROL  [initandlisten] MongoDB starting : pid=1276 port=27017 dbpath=E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data 64-bit host=DESKTOP-1DGO77K
+2019-01-01T00:11:09.385+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-01-01T00:11:09.385+0700 I CONTROL  [initandlisten] db version v4.0.5
+2019-01-01T00:11:09.385+0700 I CONTROL  [initandlisten] git version: 3739429dd92b92d1b0ab120911a23d50bf03c412
+2019-01-01T00:11:09.385+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-01-01T00:11:09.386+0700 I CONTROL  [initandlisten] modules: none
+2019-01-01T00:11:09.386+0700 I CONTROL  [initandlisten] build environment:
+2019-01-01T00:11:09.386+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-01-01T00:11:09.386+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2019-01-01T00:11:09.387+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-01-01T00:11:09.387+0700 I CONTROL  [initandlisten] options: { config: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\config.txt", storage: { dbPath: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data" }, systemLog: { destination: "file", path: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\log\mongo.log" } }
+2019-01-01T00:11:09.390+0700 I STORAGE  [initandlisten] Detected data files in E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-01-01T00:11:09.390+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-01-01T00:11:09.868+0700 I STORAGE  [initandlisten] WiredTiger message [1546276269:867451][1276:140718863570816], txn-recover: Main recovery loop: starting at 5/256 to 6/256
+2019-01-01T00:11:09.919+0700 I STORAGE  [initandlisten] WiredTiger message [1546276269:918545][1276:140718863570816], txn-recover: Recovering log 5 through 6
+2019-01-01T00:11:10.135+0700 I STORAGE  [initandlisten] WiredTiger message [1546276270:135372][1276:140718863570816], txn-recover: Recovering log 6 through 6
+2019-01-01T00:11:10.272+0700 I STORAGE  [initandlisten] WiredTiger message [1546276270:272297][1276:140718863570816], txn-recover: Set global recovery timestamp: 0
+2019-01-01T00:11:10.612+0700 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-01-01T00:11:11.084+0700 I CONTROL  [initandlisten] 
+2019-01-01T00:11:11.084+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-01-01T00:11:11.084+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] 
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-01-01T00:11:11.085+0700 I CONTROL  [initandlisten] 
+2019-01-01T00:11:15.203+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'E:/HK7/DuAnCNTT2/Booking/DataMongoDB/data/diagnostic.data'
+2019-01-01T00:11:15.365+0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-01-01T00:11:15.615+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:49764 #1 (1 connection now open)
+2019-01-01T00:11:15.652+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:49764 conn1: { driver: { name: "nodejs", version: "3.1.9" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17763" }, platform: "Node.js v8.9.3, LE, mongodb-core: 3.1.8" }
+2019-01-01T00:11:17.450+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:49770 #2 (2 connections now open)
+2019-01-01T00:11:18.459+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:49772 #3 (3 connections now open)
+2019-01-01T00:11:18.600+0700 I COMMAND  [conn1] command admin.$cmd command: listDatabases { listDatabases: 1, lsid: { id: UUID("134d00cc-a1d8-4242-b8fa-5d473545e345") }, $db: "admin" } numYields:0 reslen:299 locks:{ Global: { acquireCount: { r: 10 } }, Database: { acquireCount: { r: 4 } } } protocol:op_query 116ms
+2019-01-01T00:11:19.612+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:49776 #4 (4 connections now open)
+2019-01-01T00:11:32.729+0700 I COMMAND  [conn4] command booking.users command: collStats { collStats: "users", verbose: 1, lsid: { id: UUID("134d00cc-a1d8-4242-b8fa-5d473545e345") }, $db: "booking" } numYields:0 reslen:21160 locks:{ Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_query 182ms
+2019-01-01T00:11:40.207+0700 I COMMAND  [conn2] command booking.users command: aggregate { aggregate: "users", pipeline: [ { $indexStats: {} }, { $project: { name: 1, usageHost: "$host", usageCount: "$accesses.ops", usageSince: "$accesses.since" } } ], cursor: {}, lsid: { id: UUID("cac15370-4a2c-4ef4-8f7b-dc5fa99fcd7e") }, $db: "booking" } keysExamined:0 docsExamined:0 cursorExhausted:1 numYields:0 nreturned:2 reslen:320 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } } } protocol:op_query 231ms
+2019-01-01T00:11:41.056+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:49812 #5 (5 connections now open)
+2019-01-01T00:11:58.199+0700 I COMMAND  [conn2] command booking.users command: insert { insert: "users", ordered: false, lsid: { id: UUID("134d00cc-a1d8-4242-b8fa-5d473545e345") }, $db: "booking" } ninserted:1 keysInserted:8 numYields:0 reslen:336 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 3 } }, Collection: { acquireCount: { w: 3 } } } protocol:op_query 149ms
+2019-01-01T00:12:25.904+0700 I NETWORK  [conn5] end connection 127.0.0.1:49812 (4 connections now open)
+2019-01-01T00:12:25.904+0700 I NETWORK  [conn1] end connection 127.0.0.1:49764 (3 connections now open)
+2019-01-01T00:12:25.904+0700 I NETWORK  [conn2] end connection 127.0.0.1:49770 (2 connections now open)
+2019-01-01T00:12:25.904+0700 I NETWORK  [conn3] end connection 127.0.0.1:49772 (1 connection now open)
+2019-01-01T00:12:25.904+0700 I NETWORK  [conn4] end connection 127.0.0.1:49776 (0 connections now open)
+2019-01-01T00:16:05.119+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50242 #6 (1 connection now open)
+2019-01-01T00:16:05.143+0700 I NETWORK  [conn6] received client metadata from 127.0.0.1:50242 conn6: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T00:16:05.291+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50243 #7 (2 connections now open)
+2019-01-01T00:16:05.292+0700 I NETWORK  [conn7] received client metadata from 127.0.0.1:50243 conn7: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T00:16:05.504+0700 I COMMAND  [conn7] command admin.$cmd command: replSetGetStatus { replSetGetStatus: true, $db: "admin", lsid: { id: UUID("b6bb295a-894c-4fc8-98b8-adb26c08cb9d") }, $readPreference: { mode: "primaryPreferred" } } numYields:0 ok:0 errMsg:"not running with --replSet" errName:NoReplicationEnabled errCode:76 reslen:122 locks:{} protocol:op_msg 160ms
+2019-01-01T00:16:15.542+0700 I WRITE    [LogicalSessionCacheRefresh] update config.system.sessions command: { q: { _id: { id: UUID("ba93a0d6-0fea-4791-a8d4-068a049e0649"), uid: BinData(0, E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855) } }, u: { $currentDate: { lastUse: true } }, multi: false, upsert: true } planSummary: IDHACK keysExamined:0 docsExamined:0 nMatched:0 nModified:0 upsert:1 keysInserted:2 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { w: 2 } } } 117ms
+2019-01-01T00:16:15.559+0700 I COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: update { update: "system.sessions", ordered: false, allowImplicitCollectionCreation: false, writeConcern: { w: "majority", wtimeout: 15000 }, $db: "config" } numYields:0 reslen:1229 locks:{ Global: { acquireCount: { r: 13, w: 13 } }, Database: { acquireCount: { w: 13 } }, Collection: { acquireCount: { w: 13 } } } protocol:op_msg 135ms
+2019-01-01T00:16:20.385+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50264 #8 (3 connections now open)
+2019-01-01T00:16:20.386+0700 I NETWORK  [conn8] received client metadata from 127.0.0.1:50264 conn8: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T00:16:20.389+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50265 #9 (4 connections now open)
+2019-01-01T00:16:20.391+0700 I NETWORK  [conn9] received client metadata from 127.0.0.1:50265 conn9: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T00:16:20.391+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50266 #10 (5 connections now open)
+2019-01-01T00:16:20.392+0700 I NETWORK  [conn10] received client metadata from 127.0.0.1:50266 conn10: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T00:16:20.392+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50267 #11 (6 connections now open)
+2019-01-01T00:16:20.392+0700 I NETWORK  [conn11] received client metadata from 127.0.0.1:50267 conn11: { driver: { name: "mongo-java-driver", version: "018.2.1-FINAL-906-gfcb5960-dirty" }, os: { type: "Windows", name: "Windows 10", architecture: "amd64", version: "10.0" }, platform: "Java/Oracle Corporation/1.8.0_181-b13" }
+2019-01-01T00:17:07.499+0700 I STORAGE  [conn11] createCollection: booking.bookings with generated UUID: 21bb15d5-037c-4d16-bcf9-a9c2d27c28d8
+2019-01-01T00:17:07.951+0700 I COMMAND  [conn11] command booking.bookings command: insert { insert: "bookings", ordered: false, $db: "booking", lsid: { id: UUID("4afb3a07-0f1c-41f3-b2e5-b6b63dc4a450") } } ninserted:2 keysInserted:2 numYields:0 reslen:45 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 479ms
+2019-01-01T00:17:50.471+0700 I STORAGE  [conn10] createCollection: booking.movies with generated UUID: 2aba73f3-6b72-4382-99ed-dde059dbd681
+2019-01-01T00:17:50.777+0700 I COMMAND  [conn10] command booking.movies command: insert { insert: "movies", ordered: false, $db: "booking", lsid: { id: UUID("67e2424b-864d-4749-9b03-93a50724c201") } } ninserted:2 keysInserted:2 numYields:0 reslen:45 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 305ms
+2019-01-01T00:18:32.234+0700 I STORAGE  [conn10] createCollection: booking.rooms with generated UUID: 4e746cb5-ff32-454d-a543-7533943be9b9
+2019-01-01T00:18:32.705+0700 I COMMAND  [conn10] command booking.rooms command: insert { insert: "rooms", ordered: false, $db: "booking", lsid: { id: UUID("b4769dd6-bc06-458e-9dc1-130a3cd553b1") } } ninserted:2 keysInserted:2 numYields:0 reslen:45 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 471ms
+2019-01-01T00:19:03.005+0700 I STORAGE  [conn7] createCollection: booking.showtimes with generated UUID: 26560e79-176b-49ff-a9ee-5a1455e4f7e7
+2019-01-01T00:19:03.405+0700 I COMMAND  [conn7] command booking.showtimes command: insert { insert: "showtimes", ordered: false, $db: "booking", lsid: { id: UUID("ad5335ee-13d8-4845-8ea9-2ab32c9bcfaf") } } ninserted:1 keysInserted:1 numYields:0 reslen:45 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 400ms
+2019-01-01T00:19:40.481+0700 I STORAGE  [conn10] createCollection: booking.theaters with generated UUID: 7e0cec36-f7df-4159-a9da-c0103dc9b57b
+2019-01-01T00:19:40.718+0700 I COMMAND  [conn10] command booking.theaters command: insert { insert: "theaters", ordered: false, $db: "booking", lsid: { id: UUID("035717f4-cddb-46b0-815e-444237adf031") } } ninserted:2 keysInserted:2 numYields:0 reslen:45 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 236ms
+2019-01-01T01:06:17.398+0700 I CONTROL  [thread12] CTRL_CLOSE_EVENT signal
+2019-01-01T01:06:17.398+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2019-01-01T01:06:17.399+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2019-01-01T01:06:17.409+0700 I CONTROL  [consoleTerminate] Shutting down free monitoring
+2019-01-01T01:06:17.410+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2019-01-01T01:06:17.482+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2019-01-01T01:06:18.158+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2019-01-01T01:06:18.159+0700 I CONTROL  [consoleTerminate] now exiting
+2019-01-01T01:06:18.160+0700 I CONTROL  [consoleTerminate] shutting down with code:12

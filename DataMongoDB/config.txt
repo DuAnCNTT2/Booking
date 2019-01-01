@@ -1,0 +1,5 @@
+##store data
+dbpath=E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data
+ 
+##all output go here
+logpath=E:\HK7\DuAnCNTT2\Booking\DataMongoDB\log\mongo.log

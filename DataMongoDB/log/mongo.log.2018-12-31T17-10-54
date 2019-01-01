@@ -1,0 +1,61 @@
+2018-12-30T17:06:12.661+0700 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2018-12-30T17:06:12.665+0700 I CONTROL  [initandlisten] MongoDB starting : pid=8936 port=27017 dbpath=E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data 64-bit host=DESKTOP-1DGO77K
+2018-12-30T17:06:12.665+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-12-30T17:06:12.665+0700 I CONTROL  [initandlisten] db version v4.0.5
+2018-12-30T17:06:12.666+0700 I CONTROL  [initandlisten] git version: 3739429dd92b92d1b0ab120911a23d50bf03c412
+2018-12-30T17:06:12.666+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-12-30T17:06:12.666+0700 I CONTROL  [initandlisten] modules: none
+2018-12-30T17:06:12.667+0700 I CONTROL  [initandlisten] build environment:
+2018-12-30T17:06:12.667+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-12-30T17:06:12.667+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2018-12-30T17:06:12.667+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-12-30T17:06:12.667+0700 I CONTROL  [initandlisten] options: { config: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\config.txt", storage: { dbPath: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data" }, systemLog: { destination: "file", path: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\log\mongo.log" } }
+2018-12-30T17:06:12.670+0700 I STORAGE  [initandlisten] Detected data files in E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-12-30T17:06:12.670+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-12-30T17:06:13.176+0700 I STORAGE  [initandlisten] WiredTiger message [1546164373:175328][8936:140718863570816], txn-recover: Main recovery loop: starting at 3/5888 to 4/256
+2018-12-30T17:06:13.440+0700 I STORAGE  [initandlisten] WiredTiger message [1546164373:439195][8936:140718863570816], txn-recover: Recovering log 3 through 4
+2018-12-30T17:06:13.653+0700 I STORAGE  [initandlisten] WiredTiger message [1546164373:653160][8936:140718863570816], txn-recover: Recovering log 4 through 4
+2018-12-30T17:06:13.882+0700 I STORAGE  [initandlisten] WiredTiger message [1546164373:882021][8936:140718863570816], txn-recover: Set global recovery timestamp: 0
+2018-12-30T17:06:14.229+0700 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-12-30T17:06:14.490+0700 I CONTROL  [initandlisten] 
+2018-12-30T17:06:14.490+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-12-30T17:06:14.490+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-12-30T17:06:14.490+0700 I CONTROL  [initandlisten] 
+2018-12-30T17:06:14.491+0700 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-12-30T17:06:14.491+0700 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-12-30T17:06:14.491+0700 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-12-30T17:06:14.491+0700 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-12-30T17:06:14.492+0700 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-12-30T17:06:14.492+0700 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-12-30T17:06:14.492+0700 I CONTROL  [initandlisten] 
+2018-12-30T17:06:15.017+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'E:/HK7/DuAnCNTT2/Booking/DataMongoDB/data/diagnostic.data'
+2018-12-30T17:06:15.020+0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-12-30T17:07:16.288+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50666 #1 (1 connection now open)
+2018-12-30T17:07:16.304+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:50666 conn1: { driver: { name: "nodejs", version: "3.1.9" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17763" }, platform: "Node.js v8.9.3, LE, mongodb-core: 3.1.8" }
+2018-12-30T17:07:17.517+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50668 #2 (2 connections now open)
+2018-12-30T17:07:18.530+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50670 #3 (3 connections now open)
+2018-12-30T17:07:36.547+0700 I STORAGE  [conn2] createCollection: booking.users with generated UUID: b15b8765-7215-4311-bcd7-826b7b476c9c
+2018-12-30T17:07:36.859+0700 I COMMAND  [conn2] command booking.users command: create { create: "users", lsid: { id: UUID("6c7fe02b-44e8-415d-ba01-54bea284c23b") }, $db: "booking" } numYields:0 reslen:53 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_query 322ms
+2018-12-30T17:07:37.909+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50674 #4 (4 connections now open)
+2018-12-30T17:07:59.400+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50676 #5 (5 connections now open)
+2018-12-30T17:07:59.426+0700 I NETWORK  [conn5] received client metadata from 127.0.0.1:50676 conn5: { driver: { name: "nodejs", version: "3.1.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17763" }, platform: "Node.js v10.14.2, LE, mongodb-core: 3.1.9" }
+2018-12-30T17:07:59.681+0700 I INDEX    [conn5] build index on: booking.users properties: { v: 2, unique: true, key: { email: 1 }, name: "email_1", ns: "booking.users", background: true }
+2018-12-30T17:07:59.681+0700 I INDEX    [conn5] build index done.  scanned 0 total records. 0 secs
+2018-12-30T17:07:59.682+0700 I COMMAND  [conn5] command booking.$cmd command: createIndexes { createIndexes: "users", indexes: [ { name: "email_1", key: { email: 1 }, unique: true, background: true } ], lsid: { id: UUID("aa883ab1-5bfc-43f9-836d-9d4ad696f9b2") }, $db: "booking" } numYields:0 reslen:129 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 3, W: 2 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 210ms
+2018-12-30T17:08:13.580+0700 I NETWORK  [listener] connection accepted from 127.0.0.1:50678 #6 (6 connections now open)
+2018-12-30T17:09:49.663+0700 I WRITE    [conn6] remove booking.users command: { q: { _id: ObjectId('5c28991c1842c42d30a610f0') }, limit: 1 } planSummary: IDHACK keysExamined:1 docsExamined:1 ndeleted:1 keysDeleted:2 numYields:0 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { w: 1 } } } 151ms
+2018-12-30T17:09:49.663+0700 I COMMAND  [conn6] command booking.$cmd command: delete { delete: "users", ordered: true, lsid: { id: UUID("99530cee-f745-4f78-a4b8-abb5ede26f74") }, $db: "booking" } numYields:0 reslen:60 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_query 152ms
+2018-12-30T17:09:51.331+0700 I NETWORK  [conn1] end connection 127.0.0.1:50666 (5 connections now open)
+2018-12-30T17:09:51.332+0700 I NETWORK  [conn2] end connection 127.0.0.1:50668 (4 connections now open)
+2018-12-30T17:09:51.332+0700 I NETWORK  [conn3] end connection 127.0.0.1:50670 (3 connections now open)
+2018-12-30T17:09:51.333+0700 I NETWORK  [conn6] end connection 127.0.0.1:50678 (2 connections now open)
+2018-12-30T17:09:51.333+0700 I NETWORK  [conn4] end connection 127.0.0.1:50674 (1 connection now open)
+2018-12-30T17:10:00.637+0700 I CONTROL  [thread7] Ctrl-C signal
+2018-12-30T17:10:00.638+0700 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-12-30T17:10:00.638+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-12-30T17:10:00.641+0700 I CONTROL  [consoleTerminate] Shutting down free monitoring
+2018-12-30T17:10:00.642+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-12-30T17:10:00.671+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-12-30T17:10:01.410+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-12-30T17:10:01.411+0700 I CONTROL  [consoleTerminate] now exiting
+2018-12-30T17:10:01.411+0700 I CONTROL  [consoleTerminate] shutting down with code:12

@@ -1,0 +1,24 @@
+2019-01-01T00:10:56.549+0700 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-01-01T00:10:56.720+0700 I CONTROL  [initandlisten] MongoDB starting : pid=9568 port=27017 dbpath=E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data 64-bit host=DESKTOP-1DGO77K
+2019-01-01T00:10:56.720+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-01-01T00:10:56.720+0700 I CONTROL  [initandlisten] db version v4.0.5
+2019-01-01T00:10:56.721+0700 I CONTROL  [initandlisten] git version: 3739429dd92b92d1b0ab120911a23d50bf03c412
+2019-01-01T00:10:56.721+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-01-01T00:10:56.721+0700 I CONTROL  [initandlisten] modules: none
+2019-01-01T00:10:56.722+0700 I CONTROL  [initandlisten] build environment:
+2019-01-01T00:10:56.723+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-01-01T00:10:56.723+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2019-01-01T00:10:56.723+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-01-01T00:10:56.723+0700 I CONTROL  [initandlisten] options: { config: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\config.txt", storage: { dbPath: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data" }, systemLog: { destination: "file", path: "E:\HK7\DuAnCNTT2\Booking\DataMongoDB\log\mongo.log" } }
+2019-01-01T00:10:56.852+0700 I STORAGE  [initandlisten] Detected data files in E:\HK7\DuAnCNTT2\Booking\DataMongoDB\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-01-01T00:10:56.885+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3539M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-01-01T00:10:57.899+0700 I STORAGE  [initandlisten] WiredTiger message [1546276257:869616][9568:140718863570816], txn-recover: Main recovery loop: starting at 4/18304 to 5/256
+2019-01-01T00:10:58.421+0700 I STORAGE  [initandlisten] WiredTiger message [1546276258:420729][9568:140718863570816], txn-recover: Recovering log 4 through 5
+2019-01-01T00:10:58.763+0700 I STORAGE  [initandlisten] WiredTiger message [1546276258:763180][9568:140718863570816], txn-recover: Recovering log 5 through 5
+2019-01-01T00:10:58.893+0700 I STORAGE  [initandlisten] WiredTiger message [1546276258:893125][9568:140718863570816], txn-recover: Set global recovery timestamp: 0
+2019-01-01T00:11:00.503+0700 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-01-01T00:11:01.620+0700 I CONTROL  [thread1] CTRL_CLOSE_EVENT signal
+2019-01-01T00:11:01.620+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2019-01-01T00:11:01.733+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2019-01-01T00:11:01.827+0700 I CONTROL  [consoleTerminate] now exiting
+2019-01-01T00:11:01.827+0700 I CONTROL  [consoleTerminate] shutting down with code:12
