@@ -10,12 +10,21 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class MovieService {
-  private moviesURL = 'http://desktop-1dgo77k.local:3000/movies';
+  private moviesURL = 'http://localhost:3000/movies';
   getMovie(): Observable<Movie[]> {
     // return of(fakeMovies);
     return this.http.get<Movie[]>(this.moviesURL).pipe(
       tap(reciveMovie => console.log(`reciveMovie = ${JSON.stringify(reciveMovie)}`)),
       catchError(error => of([]))
+    );
+  }
+
+  getMovieFromId(id: string): Observable<Movie> {
+    // return of(fakeMovies.find(movie => movie.id === id));
+    const url = `${this.moviesURL}/${id}`;
+    return this.http.get<Movie>(url).pipe(
+      tap(selectedMovie => console.log(`selected movie = ${JSON.stringify(selectedMovie)}`)),
+      catchError(error => of(new Movie()))
     );
   }
   constructor(

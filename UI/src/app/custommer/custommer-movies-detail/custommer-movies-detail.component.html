@@ -5,17 +5,19 @@
   <hr>
   <div class="row">
     <div class="col-md-3">
-      <img src="" alt="">
+      <img class="img-fluid" src="../../../assets/images/{{ movie.image }}" alt="{{ movie.name }}">
     </div>
     <div class="col-md-9">
       <div class="row text-uppercase font-weight-bold h3">{{ movie.name }}</div>
-      <div class="row"><strong>Đạo diễn: </strong>{{ movie.director }}</div>
-      <div class="row"><strong>Diễn viên: </strong>{{ movie.cast }}</div>
-      <div class="row"><strong>Thể loại: </strong>{{ movie.genre }}</div>
-      <div class="row"><strong>Khởi chiếu: </strong>{{ movie.release_date }}</div>
-      <div class="row"><strong>Thời lượng: </strong>{{ movie.running_time }}</div>
+      <div class="row"><strong>Đạo diễn: </strong>&nbsp;{{ movie.director }}</div>
+      <div class="row"><strong>Diễn viên: </strong>&nbsp;{{ movie.cast }}</div>
+      <div class="row"><strong>Thể loại: </strong>&nbsp;{{ movie.genre }}</div>
+      <div class="row"><strong>Khởi chiếu: </strong>&nbsp;{{ movie.release_date | date: 'dd/MM/yyyy' }}</div>
+      <div class="row"><strong>Thời lượng: </strong> &nbsp;{{ movie.running_time }} phút</div>
       <br>
       <div class="row"> <button class="btn btn-primary">Mua vé</button>
+
+        <button class="btn btn-primary" (click)="getBack()">Trở về</button>
       </div>
     </div>
   </div>
@@ -25,5 +27,9 @@
   </div>
   <div class="row"> {{ movie.description }} </div>
 
-  <div class="row">{{ movie.trailer }}</div>
+  <div class="row">
+    {{movie.trailer}}
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jk_Do9CPC64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </div>
+<!---->

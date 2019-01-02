@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CustommerMoviesDetailComponent } from './custommer/custommer-movies-detail/custommer-movies-detail.component';
 import { MovieService } from 'src/services/movie.service';
 import { HttpClientModule } from '@angular/common/http';
+import { CustommerTheaterComponent } from './custommer/custommer-theater/custommer-theater.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     MovieSelectionComponent,
     CustommerMoviesComponent,
     CustommerMoviesDetailComponent,
+    CustommerTheaterComponent,
     // AngularFontAwesomeModule
   ],
   imports: [

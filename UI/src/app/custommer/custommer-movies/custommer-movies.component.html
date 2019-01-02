@@ -1,18 +1,22 @@
-
 <div class="container">
   <div class="row">
-    <div class="col-4" *ngFor="let eachMovie of movies">
-      <div class="card" style="width: 240px; margin-top: 10px;">
-        <img src="{{ eachMovie.image }}" class="card-img-top" alt="movie.image" />
-        <div class="card-body" style="font-size: 0.85rem">
-          <h6 class="card-title">{{ eachMovie.name }}</h6>
-          <p class="card-text">{{ eachMovie.description }}</p>
-          <a href="#" class="btn btn-primary">Đặt vé</a>
+    <div class="col-md-3 col-sm-6" *ngFor="let eachMovie of movies">
+      <div class="card-group">
+        <div class="card" style="width: 240px; margin-top: 10px;">
+          <img src="../../../assets/images/{{ eachMovie.image }}" class="card-img-top img-fluid"  />
+          <div class="card-body" style="font-size: 0.85rem">
+            <h6 class="card-title">{{ eachMovie.name }}</h6>
+            <p class="card-text">{{ eachMovie.description }}</p>
+
+            <a routerLink='' routerLinkActive="router-link-active"  class="btn btn-outline-primary btn-sm">Đặt vé</a>
+            <a routerLink='/movies/{{ eachMovie._id}}' routerLinkActive="router-link-active"  class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+
+          </div>
         </div>
       </div>
 
-    <br>
-    <app-custommer-movies-detail [movie]="eachMovie"></app-custommer-movies-detail>
+      <br>
+      <!-- <app-custommer-movies-detail [movie]="eachMovie"></app-custommer-movies-detail> -->
 
 
     </div>
