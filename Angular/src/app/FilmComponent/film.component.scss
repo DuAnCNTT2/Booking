@@ -1,0 +1,25 @@
+/*==Thiết lập container==*/
+.container {
+    width: 960px;
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  /*==cột #post==*/
+  #pdc {
+    width: 70%;
+    height: auto;
+    float: left;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /*==cột #sidebar==*/
+  #psc {
+    width: 30%;
+    height: auto;
+    float: right;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+  }

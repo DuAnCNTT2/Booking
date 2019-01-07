@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="title">
+      <table class="table table-striped table-dark ">
+          <thead>
+            <tr>
+              <th scope="col" class="all-theater">Tất cả rạp</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="all-theater">1</th>
+              <td>    
+                <div id="list1">
+                  <button mdbBtn color="primary" class="waves-light" type="button" (click)="HCM.toggle()" mdbWavesEffect>
+                      Hồ Chí Minh
+                    </button>
+                    
+                    <div mdbCollapse #HCM="bs-collapse">
+                      <ul><a>CGV Crescent Mall</a></ul>
+                    </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="all-theater">2</th>
+              <td>
+                  <div id="list2">
+                      <!-- Theater component 2-->
+                      <button mdbBtn color="primary" class="waves-light" type="button" (click)="HN.toggle()" mdbWavesEffect>
+                          Hà Nội
+                        </button>
+                        
+                        <div class="" mdbCollapse #HN="bs-collapse">
+                          <ul><a>CGV Crescent Mall</a></ul>
+                        </div>
+                    </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="all-theater">3</th>
+              <td>
+                  <div id="list3">  
+                      <!-- Theater component 3-->
+                      <button mdbBtn color="primary" class="waves-light" type="button" (click)="DN.toggle()" mdbWavesEffect>
+                          Đà Nẳng
+                      </button>
+                        
+                      <div class="" mdbCollapse #DN="bs-collapse">
+                        <ul><a>CGV Crescent Mall</a></ul>
+                      </div>
+                  </div>
+              </td>
+            </tr>
+            <tr>
+                <th scope="row" class="all-theater">4</th>
+                <td>    
+                  <div id="list1">
+                    <button mdbBtn color="primary" class="waves-light" type="button" (click)="HP.toggle()" mdbWavesEffect>
+                        Hải Phòng
+                    </button>
+                      
+                    <div mdbCollapse #HP="bs-collapse">
+                      <ul><a>CGV Crescent Mall</a></ul>
+                    </div>
+                  </div>
+                </td>
+            </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

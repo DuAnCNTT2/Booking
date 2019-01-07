@@ -1,0 +1,34 @@
+<div class="cointainer">
+  <div class="row">
+    <div id="content" class="container col-sm-10 col-12">
+      <div id="pdc">
+          <a  [routerLink]="['../film']" routerLinkActive="active" mdbWavesEffect>Phim sắp chiếu</a>
+      </div>
+      <div id ="psc">
+          <a [routerLink]="['../nowshowing']" routerLinkActive="active" mdbWavesEffect>Phim đang chiếu</a>
+      </div>
+    </div>
+    <!-- Content -->
+  </div>
+</div>
+<div class="animated bounce">
+  <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
+  [animation]="'slide'">
+  <mdb-carousel-item *ngFor="let item of slides; let i = index">
+    <div class=" col-md-4" *ngFor="let card of item">
+      <mdb-card class="my-1">
+        <mdb-card-img [src]="card.img" alt="Card image cap"></mdb-card-img>
+        <mdb-card-body>
+          <mdb-card-title>
+            <h4>{{card.title}}</h4>
+          </mdb-card-title>
+          <p>{{card.description}}</p>
+          <a href="/seat" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonBook}}</a>
+          <a href="/detail" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonDetail}}</a>
+        </mdb-card-body>
+      </mdb-card>
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel>
+</div>
+

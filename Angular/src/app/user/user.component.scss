@@ -1,0 +1,59 @@
+// .user{
+//     margin-left: 40%;
+// }
+.row{
+    width: 89%
+}
+.image{
+    padding-left: 2cm
+}
+.user-name{
+    margin-left: 4cm
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+}
+* {
+    box-sizing: border-content;
+    -moz-box-sizing: border-content;
+    -webkit-box-sizing: border-content;
+  }
+.all{
+    width: 100%;
+}
+.title{
+    margin-left: 3cm;
+}
+  /*==Thiết lập container==*/
+  .container {
+    width: 960px;
+    border: 1px solid #333;
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  /*==cột #post==*/
+  #post {
+    width: 50%;
+    height: 500px;
+    background: #e8e8e8;
+    float: left;
+  }
+  
+  /*==cột #sidebar==*/
+  #sidebar {
+    width: 50%;
+    height: 500px;
+    background: #b1b1b1;
+    float: right;
+  }
+/*==cột #score==*/
+
+  #score{
+    background: green;
+}
